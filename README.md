@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is the The [World of Warcraft Avatar History Dataset](https://gist.github.com/meperezcuello/38533ec33abb5e0b3568fa4f91d97bb3) which is a collection of records that detail information about player characters that was cleaned and limited to less than 2 days of hourly data (since the dataset was limited to 5 mb). Understanding players behavior over playing time, allows the developers to examine posibles updates. futhermore, good Viz allows proper predict gaming time for any future update or server optimization and maintenance (you would not performing a maintenance, when most of your player population is online.
 
 ## Prototypes
 
