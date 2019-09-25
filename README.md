@@ -12,6 +12,10 @@ I’ve created a proof of concept visualization of this data. It's a ... and it 
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
 
+[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)
+
+
+
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
