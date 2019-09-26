@@ -27,11 +27,7 @@ The following tasks and questions will drive the visualization and interaction d
 * Top 5 for each zone of most popular charclass?
 * Concentraction of players levels in a specifc zone? (Useful to determine popular area for high levels char)
 
-
 ## Sketches
-
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
 **First Sketch:** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
 
@@ -44,7 +40,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 **Third Sketch:** Finally, we plot the desnity of player on the real map of WOW, i.e., total number of player per zone. This plot shows a real-time animation of how the desnity of each zone change over time, which can be useful to track content and utilities that might be useful for future updates. Also, this plot anwsers questions, Concentraction of players levels in a specifc zone?, as explained before.
 
-![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW Player Zone Density over 48 hours.jpeg)
+![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
 
 ## Open Questions
 
