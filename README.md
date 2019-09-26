@@ -12,7 +12,7 @@ For better overview of the data I've decided to plot two Viz: **the first one**,
 
 **Figure 1.** WOW Avatar History Under: Amount Players Connected per Hour
 
-<p align="center"> [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)
+[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)
   
 **Figure 2.** WOW Avatar History (Race vs Total Level)
 
@@ -32,6 +32,11 @@ The following tasks and questions will drive the visualization and interaction d
 
 (insert one or more hand-drawn sketches of interactive visualizations that you imagine)
 (describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+
+[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/PlayerID%20vs%20Time.jpeg)]
+
+
+
 
 ## Open Questions
 
