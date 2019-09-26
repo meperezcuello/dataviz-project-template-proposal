@@ -10,7 +10,7 @@ For better overview of the data I've decided to plot two Viz: **the first one**,
 
 <p align="center"> [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/%23numberplayerconencted.png)](https://beta.vizhub.com/meperezcuello/15362afeabb94920b4c1fd8175464829)</p>
 
-**Figure 1.** 
+<p align="center">**Figure 1.**</p> 
 
 <p align="center"> [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)</p>
 
