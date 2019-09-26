@@ -8,11 +8,11 @@ The data I propose to visualize for my project is the The [World of Warcraft Ava
 
 For better overview of the data I've decided to plot two Viz: **the first one**, consist of the total number of player per hour over 12 hours of gameplay, with the objective to perform data manipulation on JS and D3.js without performing it offline (i.e. using Python lib such as Numpy or Pandas). Since, the Data do not show the total number per hour, instead each unique player id and a time it was connected, this transformation was required. **The latter Viz**, was a small prototype to visualize as much data in one plot, the idea is to create Viz that contains as much information of the dataset; this plot show the total level per race and character class.
 
-[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/%23numberplayerconencted.png)](https://beta.vizhub.com/meperezcuello/15362afeabb94920b4c1fd8175464829)
+<p align="center"> [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/%23numberplayerconencted.png)](https://beta.vizhub.com/meperezcuello/15362afeabb94920b4c1fd8175464829)</p>
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments)
+**Figure 1.** 
 
-[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)
+<p align="center"> [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/racevslevel.png)](https://beta.vizhub.com/meperezcuello/0eca535128ec4e0bb3c5e03866adad68)</p>
 
 ## Questions & Tasks
 
