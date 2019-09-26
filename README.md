@@ -21,8 +21,8 @@ For better overview of the data I've decided to plot two Viz: **the first one**,
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 (Note: might change later as the project develops over time).
 
-* How many players are connect in one zone at one specifc time?
-* What race of players is most popular in one zone during a specifc time?
+* How many players are connected in one zone at one specifc time?
+* What race or charclass of players is most popular in one zone during a specifc time?
 * Top 5 for each zone of most popular races?
 * Top 5 for each zone of most popular charclass?
 * Concentraction of players levels in a specifc zone? (Useful to determine popular area for high levels char)
@@ -33,7 +33,14 @@ The following tasks and questions will drive the visualization and interaction d
 (insert one or more hand-drawn sketches of interactive visualizations that you imagine)
 (describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
+**First Sketch:** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
+
 [![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/PlayerID%20vs%20Time.jpeg)]
+
+
+**Second Sketch:** This sketch similar to the last one however instead of unique ID, the Viz explore the total number of player per zone and charclass in a animeted timeline of 24 to 48 hours (can be less or more). This plot is a bar plots, which is easier to interpret compared to other complex model we will see, which means user can easily identify the answer they are seeking. This chart answers the question, What race or charclass of players is most popular in one zone during a specifc time?, due to the it shows most of the data information such as charclass on x time.
+
+[![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/Most%20Popular%20CharClass%20per%20Zone.jpeg)]
 
 
 
