@@ -48,4 +48,7 @@ The only uncertainty that might occur during the development of this project is 
 
 ## Schedule of Deliverables
 
-*Realtime WoW Map:
+* WoW Zone Map Over Time: Design Wow maps for Wrath of Lich King Expansion (either Three.js or SVG) to visualize the density (amount of players) and classes or/ races per zone. **5 weeks**
+  * Map Design: Design a zone of the Wrath of the Lich King Expansion, eiather SVG or Three.js (depends on technical erros encountered). **2 Weeks**
+  * Import created zone maps: import to Vizhub the create map and join the together, thus it looks as the real game map. **2-3 days**
+  * Create Classes for Each Zone: identify each zone either with a JS Class or Methods to easily manipulate data. e.g., one class can contain Three.js methods to change the color of the object, which indicates the density. Later, theses classess are export/import into the main index.js and change their paramters based on input data. **2-3 days**
