@@ -47,8 +47,16 @@ The following tasks and questions will drive the visualization and interaction d
 The only uncertainty that might occur during the development of this project is time concern to learn the libraries to design the WOW maps either in three.js, TopoJson.js or SVG or any data manipulation techniques.
 
 ## Schedule of Deliverables
+Note: main tasks are worked on parallel, allowing multitasking and scability of the project, since each task will be containerized, i.e., it is eaiser to debugg and perfom updates. 
 
-* WoW Zone Map Over Time: Design Wow maps for Wrath of Lich King Expansion (either Three.js or SVG) to visualize the density (amount of players) and classes or/ races per zone. **5 weeks**
-  * Map Design: Design a zone of the Wrath of the Lich King Expansion, eiather SVG or Three.js (depends on technical erros encountered). **2 Weeks**
+* **Data Manipulation:** create multiple methods which contains different data manipulation to assess the Questions/Task, the provided data is not properly formated to visualize as all desired plots. **1 week **
+
+* **WoW Zone Map Over Time:** Design Wow maps for Wrath of Lich King Expansion (either Three.js or SVG) to visualize the density (amount of players) and classes or/ races per zone. **5 weeks**
+  * **Map Design:** Design a zone of the Wrath of the Lich King Expansion, eiather SVG or Three.js (depends on technical erros encountered). **2 Weeks**
   * Import created zone maps: import to Vizhub the create map and join the together, thus it looks as the real game map. **2-3 days**
-  * Create Classes for Each Zone: identify each zone either with a JS Class or Methods to easily manipulate data. e.g., one class can contain Three.js methods to change the color of the object, which indicates the density. Later, theses classess are export/import into the main index.js and change their paramters based on input data. **2-3 days**
+  * **Create Classes for Each Zone:** identify each zone either with a JS Class or Methods to easily manipulate data. e.g., one class can contain Three.js methods to change the color of the object, which indicates the density. Later, theses classess are export/import into the main index.js and change their paramters based on input data. **2-3 days**
+  * **Prototype implementaiton:** add one hour sample into each zone (already created classes), and visualize the results. **1-2 days**
+  * **Add an animted timelapse bar:** create a bar horiztoal bar that holds the values of each hour and change over to generate the effect of changes density over time. **1 week**
+  * **Final Data impelementation and Debugging:** add the whole data for each time (hours) and solved any encountered issures. **1 week**
+  
+  
