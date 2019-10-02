@@ -42,9 +42,10 @@ The following tasks and questions will drive the visualization and interaction d
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
 
-## Open Questions
+## behavior for interactions
 
-The only uncertainty that might occur during the development of this project is time concern to learn the libraries to design the WOW maps either in three.js, TopoJson.js or SVG or any data manipulation techniques.
+### WoW Zone Map Over Time
+
 
 ## Schedule of Deliverables
 Note: main tasks are worked on parallel, allowing multitasking and scability of the project, since each task will be containerized, i.e., it is eaiser to debugg and perfom updates. 
@@ -61,7 +62,11 @@ Note: main tasks are worked on parallel, allowing multitasking and scability of 
  
 * **Develop Player ID Vs Playing Time (Hours):** Create the plot to visualize Player IDs vs Playinng Time, to visualize a subset of player at time. 50, 100, 500, or 1000 player at time. **1 week**
 
+* **develop total number of players vs zone colored by charclass:** create a plot that visualize the total number of player in each zone as barplot and colored per char classes over time (hours). **2 week**
+  * develop a prototype plot: create a plot using D3 and React to test the data and desing the interface prior desing the time bar. **1 week**
+  * design time bar: create the animated time bar that will changes the data per time instances. **1 week**
 
-* **d**
 
+## Open Questions
 
+The only uncertainty that might occur during the development of this project is time concern to learn the libraries to design the WOW maps either in three.js, TopoJson.js or SVG or any data manipulation techniques.
