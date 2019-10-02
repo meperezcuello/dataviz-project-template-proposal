@@ -59,4 +59,9 @@ Note: main tasks are worked on parallel, allowing multitasking and scability of 
   * **Add an animted timelapse bar:** create a bar horiztoal bar that holds the values of each hour and change over to generate the effect of changes density over time. **1 week**
   * **Final Data impelementation and Debugging:** add the whole data for each time (hours) and solved any encountered issures. **1 week**
  
-* Player ID Vs 
+* **Develop Player ID Vs Playing Time (Hours):** Create the plot to visualize Player IDs vs Playinng Time, to visualize a subset of player at time. 50, 100, 500, or 1000 player at time. **1 week**
+
+
+* **d**
+
+
