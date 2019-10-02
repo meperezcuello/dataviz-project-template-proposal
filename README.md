@@ -45,3 +45,7 @@ The following tasks and questions will drive the visualization and interaction d
 ## Open Questions
 
 The only uncertainty that might occur during the development of this project is time concern to learn the libraries to design the WOW maps either in three.js, TopoJson.js or SVG or any data manipulation techniques.
+
+## Schedule of Deliverables
+
+*Realtime WoW Map:
