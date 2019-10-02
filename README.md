@@ -58,5 +58,5 @@ Note: main tasks are worked on parallel, allowing multitasking and scability of 
   * **Prototype implementaiton:** add one hour sample into each zone (already created classes), and visualize the results. **1-2 days**
   * **Add an animted timelapse bar:** create a bar horiztoal bar that holds the values of each hour and change over to generate the effect of changes density over time. **1 week**
   * **Final Data impelementation and Debugging:** add the whole data for each time (hours) and solved any encountered issures. **1 week**
-  
-  
+ 
+* Player ID Vs 
