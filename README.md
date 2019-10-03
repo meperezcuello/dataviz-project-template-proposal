@@ -58,7 +58,7 @@ This Visual interaction have a time bar, which the user can click and change the
 
 
 ## Schedule of Deliverables
-Note: main tasks are worked on parallel, allowing multitasking and scalability of the project, since each task will be containerized, i.e., it is easier to debug and perform updates.
+**Note:** main tasks are worked on parallel, allowing multitasking and scalability of the project, since each task will be containerized, i.e., it is easier to debug and perform updates. The main tasks have "Estimated Deliverable Week:" on their paragraph.
 
 * **Data Manipulation:** create multiple methods which contains different data manipulation to assess the Questions/Task, the provided data is not properly formatted to visualize as all desired plots. **1 week**, Estimated Deliverable Week: **Week 7**
 
