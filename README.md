@@ -60,9 +60,9 @@ This Visual interaction have a time bar, which the user can click and change the
 ## Schedule of Deliverables
 Note: main tasks are worked on parallel, allowing multitasking and scalability of the project, since each task will be containerized, i.e., it is easier to debug and perform updates.
 
-* **Data Manipulation:** create multiple methods which contains different data manipulation to assess the Questions/Task, the provided data is not properly formatted to visualize as all desired plots. **1 week **
+* **Data Manipulation:** create multiple methods which contains different data manipulation to assess the Questions/Task, the provided data is not properly formatted to visualize as all desired plots. **1 week**, Estimated Deliverable Week: **Week 7**
 
-* **WoW Zone Map Over Time:** Design Wow maps for Wrath of the Lich King Expansion (either Three.js or SVG) to visualize the density (amount of players) and classes or/ races per zone. **5 weeks**
+* **WoW Zone Map Over Time:** Design Wow maps for Wrath of the Lich King Expansion (either Three.js or SVG) to visualize the density (amount of players) and classes or/ races per zone. **5 weeks**, Estimated Deliverable Week: **Week 9**
   * **Map Design:** Design a zone of the Wrath of the Lich King Expansion, either SVG or Three.js (depends on technical errors encountered). **2 Weeks**
   * Import created zone maps: import to Vizhub the create map and join together, thus it looks as the real game map. **2-3 days**
   * **Create Classes for Each Zone:** identify each zone either with a JS Class or Methods to easily manipulate data. e.g., one class can contain Three.js methods to change the color of the object, which indicates the density. Later, theses classes are export/import into the main index.js and change their parameters based on input data. **2-3 days**
@@ -70,9 +70,9 @@ Note: main tasks are worked on parallel, allowing multitasking and scalability o
   * **Add an animated time lapse bar:** create a bar horizontal bar that holds the values of each hour and change over to generate the effect of changes in density over time. **1 week**
   * **Final Data implementation and Debugging:** add the whole data for each time (hours) and solved any encountered issues. **1 week**
  
-* **Develop Player ID Vs Playing Time (Hours):** Create the plot to visualize Player IDs vs Playing Time, to visualize a subset of player at times. 50, 100, 500, or 1000 player at times. **1 week**
+* **Develop Player ID Vs Playing Time (Hours):** Create the plot to visualize Player IDs vs Playing Time, to visualize a subset of player at times. 50, 100, 500, or 1000 player at times. **2 week** , Estimated Deliverable Week: **Week 8**
 
-* **develop total number of players vs zone colored by charclass:** create a plot that visualize the total number of players in each zone as barplot and colored per char classes over time (hours). **2 week**
+* **develop total number of players vs zone colored by charclass:** create a plot that visualize the total number of players in each zone as barplot and colored per char classes over time (hours). **2 week**, Estimated Deliverable Week: **Week 7**
   * develop a prototype plot: create a plot using D3 and React to test the data and design the interface prior design the time bar. **1 week**
   * design time bar: create the animated time bar that will changes the data per time instances. **1 week**
 
