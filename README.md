@@ -1,10 +1,16 @@
 # Data Visualization Project
 
+## Course Review:
+Following document present my CS573: Final Project for Data Visualization Course at WPI, where students learned advanced web techniques and tools such as React.js, D3.js, Three.js, etc. However, the course is not mainly about programming assessments, instead it involves the necessary theory of creating Viz, that causes impact on users or desired population. The expected Viz for a Computer Science Network team should not be the same to non-cs users. Thus, in this course we covered the theory about cognitive perception and how colors, visualization, form and other techniques could be misunderstood to the public. Avoiding usages of bad visualization techniques can save times in later work on other projects. During course we learned a complex data structure algorithm can be visualized with advanced visualization techniques such as “Facet into Multiple Views”. 
+
+The course is interesting and good to have on your curriculum if you will be working with any type of data during you career. Data Viz are good to tell story, and good design are self-explanatory. A story is equally worth on value of a good product development, without it public cannot feel the reasons for the data to be further explorer for future work.
+
+
 ## Data
 
 The data I propose to visualize for my project is the The [World of Warcraft Avatar History Dataset](https://gist.github.com/meperezcuello/38533ec33abb5e0b3568fa4f91d97bb3) which is a **collection of records that detail information about player characters** that was cleaned and limited to less than 2 days of hourly data (since the dataset was limited to 5 mb). Understanding players behavior over playing time, allows the developers to examine posibles updates. furthermore, good Viz allows proper predict gaming time for any future update or server optimization and maintenance (you would not performing maintenance, when most of your player population is online.
 
-## Prototypes
+## Pre-Development Visualizations
 
 For a better overview of the data I've decided to plot two Viz: **the first one**, consist of the total number of players per hour over 12 hours of gameplay, with the objective to perform data manipulation on JS and D3.js without performing it offline (i.e. using Python lib such as Numpy or Pandas). Since, the Data do not show the total number per hour, instead each unique player id and a time it was connected, this transformation was required. **The latter Viz**, was a small prototype to visualize as much data in one plot, the idea is to create Viz that contains as much information of the dataset; this plot shows the total level per race and character class.
 
@@ -21,29 +27,29 @@ For a better overview of the data I've decided to plot two Viz: **the first one*
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 (**Note:** might change later as the project develops over time).
 
-* How many players are connected in one zone at one specific time?
-* What race or charclass of players is most popular in one zone during a specific time?
-* Top 3 for each zone of most popular races?
-* Top 3 for each zone of most popular charclass?
-* Top 5 of most popular zone (i.e., which zones have more players connected)?
+* How many players are connected in one zone at one specific time? **(Developed)**
+* What race or charclass of players is most popular in one zone during a specific time? **(Developed As Pre-Developed Viz)**
+* Top 3 for each zone of most popular races? **(Dropped for future revisions)**
+* Top 3 for each zone of most popular charclass?  **(Dropped for future revisions)**
+* Top 5 of most popular zone (i.e., which zones have more players connected)?  **(Dropped for future revisions)**
 
-**Extra Features: (if time permits it):**
+**Extra Features: (will be added on future revisions):**
 * What is the average of players' levels in a specific zone over time? (Useful to determine popular area for high levels char)
 * Average playing time for each char class or race?
 * Average Playing time for each zone?
 
-## Sketches
+## Sketches (includes future Work)
 
-**First Sketch:** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
+**First Sketch (moved for future work):** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/PlayerID%20vs%20Time.jpeg)
 
-**Second Sketch:** This sketch similar to the last one however instead of unique ID, the Viz explore the total number of players per zone and charclass in an animated timeline of 24 to 48 hours (can be less or more). This plot is a bar plots, which is easier to interpret compared to other complex model we will see, which means user can easily identify the answer they are seeking. This chart answers the question, What race or charclass of players is most popular in one zone during a specific time?, due to the it shows most of the data information such as charclass on x time.
+**Second Sketch (moved for future work):** This sketch similar to the last one however instead of unique ID, the Viz explore the total number of players per zone and charclass in an animated timeline of 24 to 48 hours (can be less or more). This plot is a bar plots, which is easier to interpret compared to other complex model we will see, which means user can easily identify the answer they are seeking. This chart answers the question, What race or charclass of players is most popular in one zone during a specific time?, due to the it shows most of the data information such as charclass on x time.
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/Most%20Popular%20CharClass%20per%20Zone.jpeg)
 
 
-**Third Sketch:** Finally, we plot the density of player on the real map of WOW, i.e., total number of players per zone. This plot shows a real-time animation of how the density of each zone change over time, which can be useful to track content and utilities that might be useful for future updates. Also, this plot answers questions, concentration of players levels in a specific zone?, as explained before.
+**Third Sketch (developed):** Finally, we plot the density of player on the real map of WOW, i.e., total number of players per zone. This plot shows a real-time animation of how the density of each zone change over time, which can be useful to track content and utilities that might be useful for future updates. Also, this plot answers questions, concentration of players levels in a specific zone?, as explained before.
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
 
