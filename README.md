@@ -8,7 +8,7 @@ The course is interesting and good to have on your curriculum if you will be wor
 
 ## Data
 
-The data I propose to visualize for my project is the The [World of Warcraft Avatar History Dataset](https://gist.github.com/meperezcuello/38533ec33abb5e0b3568fa4f91d97bb3) which is a **collection of records that detail information about player characters** that was cleaned and limited to less than 2 days of hourly data (since the dataset was limited to 5 mb). Understanding players behavior over playing time, allows the developers to examine posibles updates. furthermore, good Viz allows proper predict gaming time for any future update or server optimization and maintenance (you would not performing maintenance, when most of your player population is online.
+The data I proposed to visualize for my project is the The [World of Warcraft Avatar History Dataset](https://gist.github.com/meperezcuello/38533ec33abb5e0b3568fa4f91d97bb3) which is a **collection of records that detail information about player characters** that was cleaned and limited to less than 2 days of hourly data (since the dataset was limited to 5 mb). Understanding players behavior over playing time, allows the developers to examine posibles updates. furthermore, good Viz allows proper predict gaming time for any future update or server optimization and maintenance (you would not performing maintenance, when most of your player population is online.
 
 ## Pre-Development Visualizations
 
@@ -55,7 +55,25 @@ The following tasks and questions will drive the visualization and interaction d
 
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
 
+
+## Final Results
+
+
+
+
 ## behavior for interactions
+
+### How the Data Visualization Works?
+
+
+1. The Application will load all necessary Texture and Data to load the Viz. **Note:** this is a heavy computational task and might require switch to a resources such a GPU. This issues is under working process.
+
+2. Then the data is fully loaded, and a "Play Button" will appear allowing to be click.
+
+3. After clicking the button, a 1 minutes animation will start showing the Horder players density over the time (might varies on CPU Clock or general performance of device, this issues is working on process by adding a Clock Tick on the animation functions to normalize the loop speed among devices).
+
+4. Finally, An interactive GUI will pop-ups including extra UI, willingly allowing users to change date/timestamp.
+
 
 ### WoW Zone Map Over Time
 This Visual interaction have a time bar, which the user can click and change the value to a desired day input (by scrolling the indicator of the bar to either left or right), in order to visualize the density of the amount of Horde players. For each zone will be colored based on a color map (color Hue) indicating the amount of Horder players per zone and timestamp. The expected color to use is "Rainbow, keeping in mind that the data only has Horde players records. Thus, the redish (highest hue concentration) the zone the more Horde's players are allocated, if there is no color (Blue), it will mean that there is not Horde's players, which could mean that zone belong to the other faction "Alliance". The animation will be automatically start, then the user can stop and change to a static unit in time.
