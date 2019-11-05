@@ -1,10 +1,10 @@
 # Data Visualization Project
 
 ## Course Review:
+
 Following document present my CS573: Final Project for Data Visualization Course at WPI, where students learned advanced web techniques and tools such as React.js, D3.js, Three.js, etc. However, the course is not mainly about programming assessments, instead it involves the necessary theory of creating Viz, that causes impact on users or desired population. The expected Viz for a Computer Science Network team should not be the same to non-cs users. Thus, in this course we covered the theory about cognitive perception and how colors, visualization, form and other techniques could be misunderstood to the public. Avoiding usages of bad visualization techniques can save times in later work on other projects. During course we learned a complex data structure algorithm can be visualized with advanced visualization techniques such as “Facet into Multiple Views”. 
 
 The course is interesting and good to have on your curriculum if you will be working with any type of data during you career. Data Viz are good to tell story, and good design are self-explanatory. A story is equally worth on value of a good product development, without it public cannot feel the reasons for the data to be further explorer for future work.
-
 
 ## Data
 
@@ -38,7 +38,7 @@ The following tasks and questions will drive the visualization and interaction d
 * Average playing time for each char class or race?
 * Average Playing time for each zone?
 
-## Sketches (includes future Work)
+## Sketches (includes future work)
 
 **First Sketch (moved for future work):** This sketch is a unique, since it helps visualize the entire playing time or behavior of every single player (ID) recorded on the datasets. As we can see, there are time tha no data was recorded between two points(hours), meaning that the player was disconnected. This sketch is related to the question, How many players are connected in one zone at one specific time?, since it expanded the question into more details, however this plot has its cons. Such as to many data might not viable to visualize in on single plot.
 
@@ -51,19 +51,21 @@ The following tasks and questions will drive the visualization and interaction d
 
 **Third Sketch (developed):** Finally, we plot the density of player on the real map of WOW, i.e., total number of players per zone. This plot shows a real-time animation of how the density of each zone change over time, which can be useful to track content and utilities that might be useful for future updates. Also, this plot answers questions, concentration of players levels in a specific zone?, as explained before.
 
+**Note:** The redness density levels was changed to a **colorful heatmap** for visual purpose, but the locations of each player was not provided on the datasets. Only zone locations is known, thus data is centralized and connected from a fixed center point.
+
 ![image](https://raw.githubusercontent.com/meperezcuello/dataviz-project-template-proposal/master/WOW%20Player%20Zone%20Density%20over%2048%20hours.jpeg)
 
 ## behavior for interactions
 
 ### WoW Zone Map Over Time
-This Visual interaction have a time bar, which the user can click and change the value to a desired hour input (by scrolling the indicator of the bar to either left or right), in order to visualize the density of the amount of players. For each zone will be colored based on a color map (color saturation) indicating the amount of players per zone. The expected color to use is "Red", since the data only has Horde players records; this faction color is red. Thus, the redish the zone the more Horde's players are allocated, if there is no color (grey or white, depends how the visuals are adapted), it will mean that there is not Horde's players, which could mean that zone belong to the other faction "Alliance". The animation will be automatically start, then the user can stop and change to a static unit in time.
+This Visual interaction have a time bar, which the user can click and change the value to a desired day input (by scrolling the indicator of the bar to either left or right), in order to visualize the density of the amount of Horde players. For each zone will be colored based on a color map (color Hue) indicating the amount of Horder players per zone and timestamp. The expected color to use is "Rainbow, keeping in mind that the data only has Horde players records. Thus, the redish (highest hue concentration) the zone the more Horde's players are allocated, if there is no color (Blue), it will mean that there is not Horde's players, which could mean that zone belong to the other faction "Alliance". The animation will be automatically start, then the user can stop and change to a static unit in time.
 
-
-**Desired Extra Features:**
+**Desired Extra Features (for future work):**
   * 3D Bar Plot that show the amount of charclass / races, but it will depend on how well it would look on the final result.
 
 
-## Schedule of Deliverables
+
+## The proposed schedule of Deliverables during the life of the project
 **Note:** main tasks are worked on parallel, allowing multitasking and scalability of the project, since each task will be containerized, i.e., it is easier to debug and perform updates. The main tasks have "Estimated Deliverable Week:" on their paragraph.
 
 * **Data Manipulation:** create multiple methods which contains different data manipulation to assess the Questions/Task, the provided data is not properly formatted to visualize as all desired plots. **1 week**, Estimated Deliverable Week: **Week 7**
@@ -82,8 +84,9 @@ This Visual interaction have a time bar, which the user can click and change the
   * develop a prototype plot: create a plot using D3 and React to test the data and design the interface prior design the time bar. **1 week**
   * design time bar: create the animated time bar that will changes the data per time instances. **1 week**
 
-
 ## Open Questions
 
-The only uncertainty that might occur during the development of this project is time concern to learn the libraries to design the WOW maps either in three.js, TopoJson.js or SVG or any data manipulation techniques.
+The only current issues with the Three.js 3D plot relies on Shader Texture loading on certain machines specs or slow internet connections. During the testing state, some devices presented dark texture mapping on the generated heightmap object (WoW World Map). However, this will be solved on the future using web workers or async processes to allow loading time per devices resources.
+
+**Note:** This problems occurs due to the large data loaded into the memory, the collected data from the game (Number of players), was drawn on a canvas, converted to Three.js Texture (necessary for Material) and saved on a dictionary, which the processess of converting to Texture is low (plus, if you add multiples days (rows)). 
 
